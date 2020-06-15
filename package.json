@@ -1,0 +1,15 @@
+{
+  "name": "chronostrack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nw src/",
+    "prod" : "nwbuild --platforms win32,win64,osx64,linux32,linux64 --buildDir dist/ src/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nw": "^0.46.2"
+  }
+}
